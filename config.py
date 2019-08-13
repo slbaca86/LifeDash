@@ -5,11 +5,13 @@ class BaseConfig(object):
  '''
  DEBUG = True
  TESTING = False
+
 class ProductionConfig(BaseConfig):
  """
  Production specific config
  """
  DEBUG = False
+
 class DevelopmentConfig(BaseConfig):
  """
  Development environment specific configuration
